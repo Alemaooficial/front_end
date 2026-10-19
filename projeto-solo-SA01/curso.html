@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Define a codificação de caracteres para aceitar acentos -->
+    <meta charset="UTF-8">
+
+    <!-- Permite que o site se adapte a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Define o título que aparece na aba do navegador -->
+    <title>SENAI</title>
+
+    <!-- Início do CSS: configura a aparência dos elementos -->
+    <style>
+
+        /* Estiliza o corpo inteiro da página */
+        body {
+            /* Define a cor de fundo azul-escuro */
+            background-color: rgb(23, 37, 84);
+
+            /* Define a cor padrão dos textos */
+            color: rgb(251, 251, 252);
+        }
+
+        /* Estiliza os títulos principais h1 */
+        h1 {
+            /* Centraliza o texto */
+            text-align: center;
+
+            /* Define o tamanho da fonte */
+            font-size: 50px;
+
+            /* Define a cor branca do título */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estiliza os botões da página */
+        button {
+            /* Define a cor de fundo laranja */
+            background-color: rgb(249, 115, 22);
+
+            /* Define a altura do botão */
+            height: 50px;
+
+            /* Define a largura do botão */
+            width: 400px;
+
+            /* Centraliza o texto dentro do botão */
+            text-align: center;
+
+            /* Arredonda os cantos do botão */
+            border-radius: 10px;
+
+            /* Adiciona uma sombra ao botão */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+            /* Define a cor do texto do botão */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estiliza todas as divs da página */
+        div {
+            /* Centraliza o conteúdo dentro das divs */
+            text-align: center;
+        }
+
+    </style>
+    <!-- Fim do CSS -->
+
+</head>
+
+<body>
+    <!-- Início do conteúdo visível da página -->
+
+    <!-- Título principal com o nome da instituição -->
+    <h1>SENAI</h1>
+
+    <!-- Div utilizada para centralizar o botão HOME -->
+    <div>
+
+        <!-- Botão que leva o usuário de volta à página index.html -->
+        <button onclick="window.location.href='index.html'">
+            HOME
+        </button>
+
+    </div>
+
+    <!-- Linha horizontal para separar o menu do restante do conteúdo -->
+    <hr style="background-color: rgb(249, 115, 22);">
+
+    <aheader>
+        <h1>Fale conosco</h1>
+        <form action="cadastro.php" method="post"
+            <label>Nome: <input type="text" name="nome"></label>
+            <label>email: <input type="text" name="email"></label>
+            <label>o que precisa de ajuda: <input type="text" name="mensagem"></label>
+      </header>
+
+    <!-- Título que apresenta o conteúdo sobre os cursos do SENAI -->
+    <h1>Cursos, Áreas de Atuação e Oportunidades de Formação do SENAI</h1>
+
+    <!-- Seção 1: apresenta os tipos de cursos oferecidos -->
+    <h2>1. Cursos Oferecidos</h2>
+
+    <!-- Lista não ordenada: utiliza marcadores em vez de números -->
+    <ul>
+
+        <!-- Item da lista sobre aprendizagem industrial -->
+        <li>
+            Aprendizagem Industrial: formação para jovens que desejam
+            iniciar uma carreira na indústria.
+        </li>
+
+        <!-- Item da lista sobre cursos técnicos -->
+        <li>
+            Cursos Técnicos: formação profissional em áreas específicas.
+        </li>
+
+        <!-- Item da lista sobre qualificação profissional -->
+        <li>
+            Qualificação Profissional: preparação para aprender uma profissão.
+        </li>
+
+        <!-- Item da lista sobre aperfeiçoamento profissional -->
+        <li>
+            Aperfeiçoamento Profissional: atualização de conhecimentos
+            e habilidades.
+        </li>
+
+        <!-- Item da lista sobre cursos a distância -->
+        <li>
+            Cursos EAD: opções de aprendizagem a distância.
+        </li>
+
+    </ul>
+    <!-- Fim da lista de cursos oferecidos -->
+
+    <!-- Seção 2: apresenta as áreas em que o aluno pode atuar -->
+    <h2>2. Áreas de Atuação</h2>
+
+    <!-- Lista não ordenada com as áreas profissionais -->
+    <ul>
+
+        <!-- Área de mecânica -->
+        <li>
+            Mecânica: manutenção de máquinas e equipamentos.
+        </li>
+
+        <!-- Área de tecnologia da informação -->
+        <li>
+            Tecnologia da Informação: programação e desenvolvimento
+            de sistemas.
+        </li>
+
+        <!-- Área de automação industrial -->
+        <li>
+            Automação Industrial: controle de processos industriais.
+        </li>
+
+        <!-- Área de eletroeletrônica -->
+        <li>
+            Eletroeletrônica: instalações elétricas e equipamentos eletrônicos.
+        </li>
+
+        <!-- Área de logística -->
+        <li>
+            Logística: transporte e armazenamento de mercadorias.
+        </li>
+
+        <!-- Área de segurança do trabalho -->
+        <li>
+            Segurança do Trabalho: prevenção de acidentes.
+        </li>
+
+        <!-- Área de alimentos e bebidas -->
+        <li>
+            Alimentos e Bebidas: produção e controle de qualidade.
+        </li>
+
+        <!-- Área de construção civil -->
+        <li>
+            Construção Civil: técnicas de construção e manutenção.
+        </li>
+
+    </ul>
+    <!-- Fim da lista de áreas de atuação -->
+
+    <!-- Seção 3: apresenta as oportunidades de formação profissional -->
+    <h2>3. Oportunidades de Formação</h2>
+
+    <!-- Lista não ordenada com as oportunidades oferecidas -->
+    <ul>
+
+        <!-- Oportunidade de preparação para o primeiro emprego -->
+        <li>
+            Primeiro emprego: preparação para entrar no mercado de trabalho.
+        </li>
+
+        <!-- Oportunidade de aprendizagem prática -->
+        <li>
+            Aprendizagem profissional: experiência prática durante a formação.
+        </li>
+
+        <!-- Oportunidade de crescimento na carreira -->
+        <li>
+            Desenvolvimento de carreira: aprimoramento profissional.
+        </li>
+
+        <!-- Oportunidade de aprender uma nova profissão -->
+        <li>
+            Requalificação profissional: aprendizado para mudar de área.
+        </li>
+
+        <!-- Oportunidade de realizar cursos gratuitos -->
+        <li>
+            Cursos gratuitos: oportunidades conforme a disponibilidade
+            e os requisitos.
+        </li>
+
+        <!-- Oportunidade de contato com empresas -->
+        <li>
+            Parcerias com empresas: contato com as necessidades da indústria.
+        </li>
+
+        <!-- Oportunidade de desenvolver habilidades empreendedoras -->
+        <li>
+            Empreendedorismo: desenvolvimento de habilidades para abrir
+            um negócio.
+        </li>
+
+    </ul>
+    <!-- Fim da lista de oportunidades de formação -->
+
+    <!-- Título que inicia a conclusão do conteúdo -->
+    <h2>Conclusão</h2>
+
+    <!-- Parágrafo que resume a importância da formação profissional -->
+    <p>
+        O SENAI oferece diversas oportunidades de formação profissional,
+        ajudando estudantes e trabalhadores a desenvolver competências,
+        conquistar oportunidades de emprego e acompanhar as mudanças
+        tecnológicas da indústria brasileira.
+    </p>
+
+    <!-- Rodapé da página: apresenta os créditos de desenvolvimento -->
+    <footer>
+
+        <!-- Centraliza o texto e define o fundo na cor laranja -->
+        <p style="text-align: center; background-color: rgb(249, 115, 22);">
+            Desenvolvido por: Augusto C.
+        </p>
+
+    </footer>
+    <!-- Fim do rodapé -->
+
+</body>
+<!-- Fim do conteúdo da página -->
+
+</html>
+<!-- Fim do documento HTML -->

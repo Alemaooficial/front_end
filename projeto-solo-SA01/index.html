@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Define a codificação de caracteres para aceitar acentos -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site se adaptar a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Define o título que aparece na aba do navegador -->
+    <title>SENAI</title>
+
+    <!-- Início do CSS: define a aparência dos elementos da página -->
+    <style>
+
+        /* Estiliza o corpo inteiro da página */
+        body {
+            /* Define a cor de fundo azul-escuro */
+            background-color: rgb(23, 37, 84);
+
+            /* Define a cor padrão dos textos */
+            color: rgb(251, 251, 252);
+        }
+
+        /* Estiliza o título principal (h1) */
+        h1 {
+            /* Centraliza o texto */
+            text-align: center;
+
+            /* Define o tamanho da fonte */
+            font-size: 50px;
+
+            /* Define a cor branca do título */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estiliza os botões da página */
+        button {
+            /* Define a cor de fundo laranja */
+            background-color: rgb(249, 115, 22);
+
+            /* Define a altura do botão */
+            height: 50px;
+
+            /* Define a largura do botão */
+            width: 400px;
+
+            /* Centraliza o texto dentro do botão */
+            text-align: center;
+
+            /* Arredonda os cantos do botão */
+            border-radius: 10px;
+
+            /* Adiciona uma sombra ao botão */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+            /* Define a cor do texto do botão como branco */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estiliza todas as divs da página */
+        div {
+            /* Centraliza o conteúdo dentro das divs */
+            text-align: center;
+        }
+        
+
+    </style>
+    <!-- Fim do CSS -->
+
+</head>
+
+<body>
+    <!-- Início do conteúdo visível da página -->
+
+    <!-- Título principal do site -->
+    <h1>SENAI</h1>
+
+    <!-- Div utilizada para centralizar o botão -->
+    <div>
+
+        <!-- Botão que redireciona para a página curso.html ao ser clicado -->
+        <button onclick="window.location.href='curso.html'">
+            Cursos
+        </button>
+
+    </div>
+
+    <!-- Linha horizontal para separar os conteúdos -->
+    <hr style="background-color: rgb(249, 115, 22);">
+
+    <!-- Seção que contém um parágrafo -->
+    <section>
+
+        <!-- Parágrafo com a cor do texto definida como branca -->
+        <p style="color: rgb(255, 255, 255);">
+            Fundo do texto em uma cor especifica!
+        </p>
+
+    </section>
+
+    <!-- Exibe uma imagem armazenada na pasta do projeto -->
+    <!-- O atributo src indica o arquivo da imagem -->
+    <!-- O atributo alt apresenta um texto alternativo -->
+    <!-- O atributo title mostra uma descrição ao passar o mouse -->
+    <img
+        src="Captura de tela 2026-10-19 100218.png"
+        alt="Teste"
+        title="Teste"
+    >
+
+    <!-- Subtítulo que inicia a apresentação sobre o SENAI -->
+    <h2>Sobre o senai</h2>
+
+    <!-- Parágrafo com informações sobre a instituição SENAI -->
+    <p>
+        O SENAI (Serviço Nacional de Aprendizagem Industrial) é uma
+        instituição brasileira criada em 1942, com o objetivo de promover
+        a educação profissional e contribuir para o desenvolvimento da
+        indústria no Brasil. Ao longo de sua história, tornou-se uma
+        referência na formação de profissionais qualificados para atender
+        às necessidades do mercado de trabalho.
+
+        A instituição oferece diversos cursos de aprendizagem industrial,
+        cursos técnicos, aperfeiçoamento profissional e qualificação
+        profissional, além de desenvolver atividades de pesquisa, inovação
+        e serviços tecnológicos para empresas. Seu trabalho busca preparar
+        os alunos para os desafios do mundo profissional, desenvolvendo
+        conhecimentos técnicos, habilidades práticas e competências
+        importantes para a carreira.
+
+        A missão do SENAI é promover a educação profissional e tecnológica,
+        contribuindo para o aumento da competitividade da indústria
+        brasileira. Sua atuação é baseada na qualidade do ensino, na
+        inovação, na ética e no compromisso com o desenvolvimento econômico
+        e social do país.
+
+        Com unidades distribuídas por diversas regiões do Brasil, o SENAI
+        aproxima estudantes e empresas, oferecendo oportunidades de
+        formação e crescimento profissional. Dessa forma, a instituição
+        desempenha um papel importante na preparação de trabalhadores
+        qualificados e no fortalecimento da indústria nacional.
+    </p>
+    <!-- Seção que apresenta o vídeo e o mapa relacionados ao SENAI -->
+    <section>
+
+        <!-- Subtítulo da seção de apresentação -->
+        <h2>Conheça o Senai São Paulo</h2>
+
+        <!-- Incorpora um vídeo do YouTube na página -->
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/J--7IsdWSwY?si=AKcLvhFSQ__2E3x3"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+
+        <!-- Incorpora um mapa do Google Maps na página -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d941282.1701554263!2d-47.457182331137545!3d-22.84380014054427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1ssenai%20SP!5e0!3m2!1spt-BR!2sbr!4v1792417655680!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0;"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+
+    </section>
+
+    <!-- Rodapé da página: contém os créditos de desenvolvimento -->
+    <footer>
+
+        <!-- Centraliza o texto e define o fundo laranja -->
+        <p style="text-align: center; background-color: rgb(249, 115, 22);">
+            Desenvolvido por: Augusto C.
+        </p>
+
+    </footer>
+    <!-- Fim do rodapé -->
+
+</body>
+<!-- Fim do conteúdo da página -->
+
+</html>
+<!-- Fim do documento HTML -->
