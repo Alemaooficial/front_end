@@ -1,0 +1,55 @@
+* { /* Seletor Universar */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.destaque { /* Seletor por Classe */
+    color: blue;
+    font-weight: bold;
+}
+
+#titulo-principal { /* Seletor por ID */
+    color: red;
+    text-align: center;
+}
+
+p { /* Seletor por Tag */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 { /* Seletor por Vírgula */
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+h4 {
+    color: aqua;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    display: block; /* Faz o elemento se comportar como um bloco (ocupa toda a linha sozinho) */
+    margin: auto; /* Centraliza o elemento horizontalmente, desde que tenha uma largura (width) deifinida. */
+}
+
+ul {
+    list-style-type: square;
+    list-style-image: url("https://gpsbrasilia.com.br/wp-content/uploads/2026/07/ChatGPT-Image-14-de-jul.-de-2026-14_55_52.jpg");
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-spacing: 5px;
+}
